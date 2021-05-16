@@ -1,24 +1,11 @@
-# app
+# Gustavo Vinicius
 
-## Project setup
+## Commands
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
+docker-compose up
+docker exec -it vueprojects_node_1 /bin/bash
+npm install -g @vue/cli
+vue create .
+npm install vuex --save
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

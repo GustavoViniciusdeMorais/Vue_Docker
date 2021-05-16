@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import list from './components/common/list'
+// import list from './components/common/list'
+import list from './components/xproducts/list'
 
 export default {
   name: 'App',
@@ -16,6 +17,8 @@ export default {
 </script>
 
 <style>
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
